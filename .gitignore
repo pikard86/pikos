@@ -1,3 +1,13 @@
+tools/binutils-2.34
+tools/binutils-build
+
+tools/gcc-7.5.0
+tools/gcc-build
+
+isodir
+*.iso
+*.bin
+
 # Prerequisites
 *.d
 
