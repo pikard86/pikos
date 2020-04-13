@@ -1,10 +1,9 @@
-tools/binutils-2.34
-tools/binutils-build
+bin/tools/binutils-2.34
+bin/tools/binutils-build
+bin/tools/gcc-7.5.0
+bin/tools/gcc-build
 
-tools/gcc-7.5.0
-tools/gcc-build
-
-isodir
+target
 *.iso
 *.bin
 

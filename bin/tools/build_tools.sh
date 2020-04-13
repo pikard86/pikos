@@ -1,3 +1,7 @@
+export PREFIX="$HOME/opt/cross"
+export TARGET=i686-elf
+export PATH="$PREFIX/bin:$PATH"
+
 wget https://ftp.gnu.org/gnu/gcc/gcc-7.5.0/gcc-7.5.0.tar.gz
 wget https://ftp.gnu.org/gnu/binutils/binutils-2.34.tar.gz
 tar -xvf binutils-2.34.tar.gz 
