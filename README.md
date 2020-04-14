@@ -2,6 +2,8 @@
 
 Seed for Kernel development based on [OS dev Bare Bones](https://wiki.osdev.org/Bare_Bones)
 
+![](capture.png)
+
 ### Quikstart
 
 ```sh
