@@ -9,5 +9,5 @@ sudo apt install texinfo
 sudo apt install xorriso
 sudo apt install qemu-system-x86
 
-cd tools
+cd bin/tools
 ./build_tools.sh
