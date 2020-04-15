@@ -18,5 +18,5 @@ if [ $1 == "run" ]; then
 fi
 
 if [ $1 == "burn" ]; then
-./bin/run.sh
+./bin/burn.sh
 fi
