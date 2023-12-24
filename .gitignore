@@ -2,7 +2,6 @@ bin/tools/binutils-2.34
 bin/tools/binutils-build
 bin/tools/gcc-7.5.0
 bin/tools/gcc-build
-
 target
 *.iso
 *.bin
@@ -59,3 +58,6 @@ modules.order
 Module.symvers
 Mkfile.old
 dkms.conf
+
+# IDE
+.idea

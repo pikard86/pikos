@@ -7,9 +7,9 @@ Seed for Kernel development based on [OS dev Bare Bones](https://wiki.osdev.org/
 ### Quikstart
 
 ```sh
-pos.sh init
-pos.sh build 
-pos.sh run
+make init
+make build 
+make run
 ```
 
 
@@ -17,7 +17,7 @@ pos.sh run
 Installs the dependencies and builds a cross compiler version gcc 7.5.0 available on `$HOME/opt/cros`
 
 ```sh 
-pos.sh init
+make init
 ```
  
 **[NOTE] depends on apt to install dependencies**
@@ -37,13 +37,13 @@ qemu-system-x86
 ## Build 
 Build the kernel and generates the iso image under `target/picos.iso`
 
-`pos.sh build`
+`make build`
 
 ## Clean
-`pos.sh clean`
+`make clean`
 
 ## To run on quemu 
-`pos.sh run`
+`make run`
 
 ## To burn kernel image on usb dev/sdb
-`pos.sh burn`
+`make burn`
