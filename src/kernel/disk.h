@@ -6,15 +6,18 @@
 #define PIKOS_DISK_H
 
 
-int read_sector(){
-    uint32_t dwRes;
+int read_sector(int input) {
+    int src = input;
+    int dst;
 
-    asm ("bsfl %1,%0"
-    : "=r" (dwRes)
-    : "r" (dwSomeValue)
-    : "cc");
+    asm (
+    "mov %1, %0\n\t"
+    "add $1, %0"
+    : "=r" (dst)
+    : "r" (src)
+    );
 
-    assert(dwRes > 3);
+    return dst;
 }
 
 

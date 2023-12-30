@@ -2,6 +2,8 @@
 #include <stddef.h>
 #include <stdint.h>
 #include "io.h"
+#include "string.h"
+#include "disk.h"
 
 /* Check if the compiler thinks you are targeting the wrong operating system. */
 void print_footer();
@@ -36,5 +38,15 @@ void kernel_main(void) {
     /* Initialize terminal interface */
     init_system_out();
     print_banner();
+
+    int params[2] = {12, 4};
+    char *format = "Testing output form assembler and back input %d, %d";
+    println(format);
+
+    format_string(format, params);
+    println(format);
+
+
+
     print_footer();
 }
